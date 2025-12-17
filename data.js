@@ -6,12 +6,12 @@ const playersData = [
         seleccion: {
             nombre: "San Marino",
             escudo: "san_marino.png",
-            titulos: 22 
+            titulos: 0
         },
         club: {
             nombre: "Boca Juniors",
             escudo: "boca.png",
-            titulos: 8 
+            titulos: 0
         }
     },
     {
@@ -21,12 +21,12 @@ const playersData = [
         seleccion: {
             nombre: "Portugal",
             escudo: "portugal.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "River Plate",
             escudo: "river.png",
-            titulos: 14 
+            titulos: 0
         }
     },
     {
@@ -36,12 +36,12 @@ const playersData = [
         seleccion: {
             nombre: "Brasil",
             escudo: "brasil.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Santos FC",
             escudo: "santos.png",
-            titulos: 25 
+            titulos: 0
         }
     },
     {
@@ -51,12 +51,12 @@ const playersData = [
         seleccion: {
             nombre: "Corea Del Sur",
             escudo: "coreadelsur.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Racing",
             escudo: "racing.png",
-            titulos: 14 
+            titulos: 0 
         }
     },
     {
@@ -66,12 +66,12 @@ const playersData = [
         seleccion: {
             nombre: "Jamaica",
             escudo: "jamaica.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Chacarita",
             escudo: "chacarita.png",
-            titulos: 14 
+            titulos: 0
         }
     },
     {
@@ -81,12 +81,12 @@ const playersData = [
         seleccion: {
             nombre: "España",
             escudo: "espana.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Deportivo Riestra",
             escudo: "riestra.png",
-            titulos: 14 
+            titulos: 0 
         }
     },
     {
@@ -96,12 +96,12 @@ const playersData = [
         seleccion: {
             nombre: "Colombia",
             escudo: "colombia.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Inter De Milan",
             escudo: "inter.png",
-            titulos: 14 
+            titulos: 0
         }
     },
      {
@@ -111,12 +111,13 @@ const playersData = [
         seleccion: {
             nombre: "Argentina",
             escudo: "argentina.png",
-            titulos: 11
+            titulos: 0
         },
         club: {
             nombre: "Talleres",
             escudo: "talleres.png",
-            titulos: 14 
+            titulos: 0 
         }
     }
+
 ];
