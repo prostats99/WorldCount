@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROSTATS - Mundialitos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="brand-box">
+                <div class="brand">
+                    <h1>PRO<span>STATS</span></h1>
+                    <p>EL JUGADOR SOBRE LA CAMISETA</p>
+                </div>
+                <div id="global-counter" class="global-info">
+                    </div>
+            </div>
+            
+            <div class="mode-selector">
+                <button id="btn-seleccion" class="mode-btn active" onclick="setMode('seleccion')">MODO SELECCIONES</button>
+                <button id="btn-club" class="mode-btn" onclick="setMode('club')">MODO CLUBES</button>
+            </div>
+        </header>
+
+        <main id="main-grid" class="player-grid">
+            </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

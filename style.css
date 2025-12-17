@@ -1,0 +1,158 @@
+:root {
+    --bg: #0d1117;
+    --card-bg: #161b22;
+    --accent: #00d4ff;
+    --gold: #ffc107;
+    --text: #ffffff;
+    --text-dim: #8b949e;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-container { max-width: 1200px; margin: 0 auto; }
+
+.brand-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.brand h1 { font-weight: 900; letter-spacing: -1px; margin: 0; font-size: 2.5rem; }
+.brand span { color: var(--accent); }
+.brand p { margin: 0; font-size: 0.7rem; letter-spacing: 3px; color: var(--text-dim); }
+
+.global-info {
+    text-align: right;
+    background: rgba(255,255,255,0.05);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #30363d;
+}
+
+.global-info span { display: block; font-weight: 900; color: var(--accent); font-size: 1.2rem; }
+
+.mode-selector {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.mode-btn {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #30363d;
+    background: var(--card-bg);
+    color: var(--text-dim);
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.mode-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+}
+
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid #30363d;
+    position: relative;
+    transition: 0.3s;
+}
+
+.card:hover { border-color: var(--accent); transform: translateY(-5px); }
+
+.escudo-small {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    background: #000;
+}
+
+.stat-box {
+    background: rgba(255,255,255,0.03);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulos-count {
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.progress-container {
+    height: 6px;
+    background: #30363d;
+    border-radius: 3px;
+    margin: 15px 0 5px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--accent);
+    transition: 0.5s;
+}
+
+.balones-oro-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    min-height: 30px;
+}
+
+.ballon-icon {
+    font-size: 1.5rem;
+    filter: drop-shadow(0 0 5px var(--gold));
+}
+
+.badge-legend {
+    margin-top: 15px;
+    background: var(--accent);
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
