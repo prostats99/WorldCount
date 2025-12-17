@@ -21,12 +21,12 @@ const playersData = [
         seleccion: {
             nombre: "Portugal",
             escudo: "portugal.png",
-            titulos: 0
+            titulos: 1
         },
         club: {
             nombre: "River Plate",
             escudo: "river.png",
-            titulos: 0
+            titulos: 1
         }
     },
     {
@@ -121,3 +121,4 @@ const playersData = [
     }
 
 ];
+
