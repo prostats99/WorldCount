@@ -119,7 +119,7 @@ const playersData = [
             titulos: 0 
         },
           {
-        id: 8,
+        id: 9,
         nombre: "Isaac Peralta",
         avatar: "Jugador_Generico.png",
         seleccion: {
@@ -135,6 +135,7 @@ const playersData = [
     }
 
 ];
+
 
 
 
