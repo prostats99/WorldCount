@@ -41,7 +41,7 @@ const playersData = [
         club: {
             nombre: "Santos FC",
             escudo: "santos.png",
-            titulos: 0
+            titulos: 1
         }
     },
     {
@@ -121,4 +121,5 @@ const playersData = [
     }
 
 ];
+
 
