@@ -117,9 +117,24 @@ const playersData = [
             nombre: "Talleres",
             escudo: "talleres.png",
             titulos: 0 
+        },
+          {
+        id: 8,
+        nombre: "Isaac Peralta",
+        avatar: "Jugador_Generico.png",
+        seleccion: {
+            nombre: "Croacia",
+            escudo: "croacia.png",
+            titulos: 0
+        },
+        club: {
+            nombre: "PSG",
+            escudo: "psg.png",
+            titulos: 0 
         }
     }
 
 ];
+
 
 
