@@ -56,7 +56,7 @@ const playersData = [
         club: {
             nombre: "Racing",
             escudo: "racing.png",
-            titulos: 0 
+            titulos: 0
         }
     },
     {
@@ -86,7 +86,7 @@ const playersData = [
         club: {
             nombre: "Deportivo Riestra",
             escudo: "riestra.png",
-            titulos: 0 
+            titulos: 0
         }
     },
     {
@@ -101,7 +101,7 @@ const playersData = [
         club: {
             nombre: "Inter De Milan",
             escudo: "inter.png",
-            titulos: 0
+            titulos: 0 
         }
     },
      {
@@ -117,8 +117,9 @@ const playersData = [
             nombre: "Talleres",
             escudo: "talleres.png",
             titulos: 0 
-        },
-          {
+        }
+    },
+    {
         id: 9,
         nombre: "Isaac Peralta",
         avatar: "Jugador_Generico.png",
@@ -133,9 +134,4 @@ const playersData = [
             titulos: 0 
         }
     }
-
 ];
-
-
-
-
