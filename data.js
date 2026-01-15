@@ -21,12 +21,12 @@ const playersData = [
         seleccion: {
             nombre: "Portugal",
             escudo: "portugal.png",
-            titulos: 1
+            titulos: 2
         },
         club: {
             nombre: "River Plate",
             escudo: "river.png",
-            titulos: 1
+            titulos: 2
         }
     },
     {
@@ -36,7 +36,7 @@ const playersData = [
         seleccion: {
             nombre: "Brasil",
             escudo: "brasil.png",
-            titulos: 0
+            titulos: 1
         },
         club: {
             nombre: "Santos FC",
@@ -81,7 +81,7 @@ const playersData = [
         seleccion: {
             nombre: "España",
             escudo: "espana.png",
-            titulos: 0
+            titulos: 1
         },
         club: {
             nombre: "Deportivo Riestra",
@@ -135,3 +135,4 @@ const playersData = [
         }
     }
 ];
+
